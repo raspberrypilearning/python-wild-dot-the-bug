@@ -1,13 +1,15 @@
-<h2 class="c-project-heading--task">Escape the apostrophe</h2>
+<h2 class="c-project-heading--task">Give Dot some antennae</h2>
 --- task ---
-Add a sentence that contains an apostrophe inside speech by using an escape character.
+Use the `line()` function to draw two antennae at the top of Dot's head.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Escaping confusion!</h2>
+<h2 class="c-project-heading--explainer">Add extra bug features</h2>
 
-If you want to use an apostrophe **inside** speech, you can escape it using a backslash `\`.
+Lots of bugs have wiggly antennae to help them sense the world. Let’s give Dot two fun antennae!
 
-This tells Python to treat the apostrophe as part of the text, not the end of the string.
+You can use the `line()` function again to draw each one. Start the line near the top of Dot’s head and make it point upward or sideways.
+
+Here’s what to add next:
 
 <div class="c-project-code">
 --- code ---
@@ -15,24 +17,35 @@ This tells Python to treat the apostrophe as part of the text, not the end of th
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 4
-line_highlights: 5
+line_number_start: 12
+line_highlights: 21-22
 ---
-print("One kid's sandwich had already disappeared.")
-print('Another kid yelled, "That\'s mine!"')
+    fill('white')
+    circle(180, 180, 20)
+    circle(220, 180, 20)
+
+    stroke('black')
+    stroke_weight(3)
+    line(160, 250, 140, 280)
+    line(240, 250, 260, 280)
+
+    line(185, 150, 175, 120)
+    line(215, 150, 225, 120)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-Another kid yelled, "That's mine!"
+Dot now has two antennae sticking up from its head.
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Use `\'` inside a string to include an apostrophe without ending it too early.<br />
-For example: `'That\'s funny!'` or `'Don\'t touch that!'`
+- Try making one antenna longer than the other for a goofy look<br />
+- Try slanting them in different directions for more character
 
 </div>
 
@@ -40,8 +53,9 @@ For example: `'That\'s funny!'` or `'Don\'t touch that!'`
 
 ### Debugging
 
-If you get a *SyntaxError*, check that:<br />
-- You used the backslash before the apostrophe<br />
-- All your quotes are properly paired
+If the antennae don’t show up:<br />
+- Double check the start of the line is near Dot’s head<br />
+- Did you accidentally draw them under the body? (They need to come after it!)<br />
+- Make sure you're using `stroke()` and `stroke_weight()`
 
 </div>

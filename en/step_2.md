@@ -1,11 +1,17 @@
-<h2 class="c-project-heading--task">Add some speech</h2>
+<h2 class="c-project-heading--task">Add Dot's eyes</h2>
 --- task ---
-Make someone say something by using quotes inside your print statement.
+Draw two smaller circles to give Dot some eyes.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">What did they say?</h2>
+<h2 class="c-project-heading--explainer">Can Dot see?</h2>
 
-Use double quotes inside single quotes, to show someone speaking.
+Let’s give Dot the Bug two cartoon eyes!
+
+You can use `fill('white')` to change the colour, and `circle(x, y, size)` to draw each one.
+
+Remember: the eyes are just smaller circles. You can place them anywhere on Dot’s body.
+
+Try changing the position or size to make Dot look sleepy, surprised, or silly!
 
 <div class="c-project-code">
 --- code ---
@@ -13,27 +19,28 @@ Use double quotes inside single quotes, to show someone speaking.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 3
+line_number_start: 12
+line_highlights: 12-14
 ---
-print('It was a sunny day at the park. 🌳')
-print('Three kids were sitting on a big picnic blanket, eating jam sandwiches. 🧺🥪')
-print('A squirrel appeared and shouted, "Give that back!" 🐿️')
+    fill('white')
+    circle(180, 180, 20)
+    circle(220, 180, 20)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-A squirrel appeared and shouted, "Give that back!" 🐿️
+A black circle with two white cartoon eyes appears on the green background.
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try different visitors:<br />
-'A pigeon flapped in...' 🐦<br />
-'A goat trotted up...' 🐐<br />
-'A robot zoomed by...' 🤖
+Try moving the eyes closer together or further apart.  
+You can even make one eye bigger than the other!  
+Change the numbers to create your own unique look.
 
 </div>
 
@@ -41,8 +48,9 @@ Try different visitors:<br />
 
 ### Debugging
 
-Check that:<br />
-- You use both kinds of quotes correctly: `' "words" '`<br />
-- You didn’t forget to close all quotes or brackets
+If the eyes don’t appear:<br />
+- Make sure `fill('white')` comes **before** the eye circles<br />
+- Check that each `circle()` has 3 numbers: x, y, and size<br />
+- Try zooming out if you made the eyes too big!
 
 </div>

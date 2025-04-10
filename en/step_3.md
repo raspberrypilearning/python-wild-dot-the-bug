@@ -1,13 +1,18 @@
-<h2 class="c-project-heading--task">Use an apostrophe</h2>
+<h2 class="c-project-heading--task">Add Dot's legs</h2>
 --- task ---
-Print a sentence that includes an apostrophe by using double quotes to surround it.
+Use the `line()` function to draw legs coming out from Dot's body.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Apostrophes in action</h2>
+<h2 class="c-project-heading--explainer">Give Dot some legs!</h2>
 
-Apostrophes can be useful in writing.
+Now that Dot has a body and eyes, it’s time to give them some legs.
 
-To include an apostrophe in a string, you can surround the sentence with **double quotes** `"` instead of single quotes `'`.
+You can use the `line()` function to draw a leg by connecting two points.  
+The format is: `line(x1, y1, x2, y2)`
+
+To make the legs easier to see, use `stroke('black')` to set the colour, and `stroke_weight(3)` to make the lines thicker.
+
+Here’s what to add to your `draw()` function:
 
 <div class="c-project-code">
 --- code ---
@@ -15,25 +20,33 @@ To include an apostrophe in a string, you can surround the sentence with **doubl
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 4
-line_highlights: 4
+line_number_start: 12
+line_highlights: 16-19
 ---
-print("One kid's sandwich had already disappeared.")
+    fill('white')
+    circle(180, 180, 20)
+    circle(220, 180, 20)
+
+    stroke('black')
+    stroke_weight(3)
+    line(160, 250, 140, 280)
+    line(240, 250, 260, 280)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-One kid's sandwich had already disappeared.
+Dot now has two legs pointing downward!
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Use **double quotes** around a sentence if it includes an apostrophe.<br />
-For example:<br />
-- "That's mine!"<br />
-- "Jess's sandwich was gone."
+- Try drawing legs on the sides or top of the body<br />
+- Use different `stroke_weight()` values to make legs thicker or thinner<br />
+- Use `fill()` before circles, but `stroke()` before lines!
 
 </div>
 
@@ -41,8 +54,9 @@ For example:<br />
 
 ### Debugging
 
-If you get an error, check that:<br />
-- You used double quotes around the whole string<br />
-- You didn’t accidentally end the sentence too early with an apostrophe
+If you don’t see the legs:<br />
+- Make sure the `line()` calls are inside the `draw()` function<br />
+- Did you use all four numbers for each line?<br />
+- Make sure `stroke()` and `stroke_weight()` are before your lines
 
 </div>

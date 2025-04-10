@@ -1,13 +1,21 @@
-<h2 class="c-project-heading--task">A mistake in the maths</h2>
+<h2 class="c-project-heading--task">Add a mouth using an arc</h2>
 --- task ---
-Make the robot say the wrong total, and correct it using variables.
+Use the `arc()` function to draw a smiling mouth on Dot.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Oh no! The robot gets it wrong</h2>
+<h2 class="c-project-heading--explainer">Time for a smile!</h2>
 
-Let’s show a mistake and then correct it using your variables.
+Dot is almost done, but there’s one thing missing: a smile!
 
-Instead of multiplying `price * quantity`, the robot adds them together by mistake. We’ll help your character spot and fix it!
+You can use the `arc()` function to draw a curve that looks like a mouth.  
+Make sure you use `fill('white')` so it stands out from Dot’s face.
+
+In p5, the `arc()` function looks like this:  
+`arc(x, y, width, height, start_angle, stop_angle)`
+
+Use `radians()` to convert degrees to angles that p5 understands.
+
+Here’s what to add below the eyes:
 
 <div class="c-project-code">
 --- code ---
@@ -15,34 +23,39 @@ Instead of multiplying `price * quantity`, the robot adds them together by mista
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 18-20
+line_number_start: 21
+line_highlights: 23, 24
 ---
-print(f'{name.upper()}: I\'ll have {quantity}')
-print(f'ROBOT: That\'ll be {price + quantity} credits.')
-print(f'{name.upper()}: That doesn\'t look right...')
-print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
+    line(185, 150, 175, 120)
+    line(215, 150, 225, 120)
+
+    fill('white')
+    arc(200, 215, 40, 20, radians(0), radians(180))
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ROBOT: That'll be 7 credits.<br />
-ZORP: That doesn't look right...<br />
-ROBOT: You're correct 4 × 3 = 12
+![Dot with a smiling white arc as a mouth](images/step_5.png)
 </div>
-
-<div class="c-project-callout c-project-callout--debug">
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try changing the values of `level`, `price`, and `quantity`.
+- Move the arc up or down to make Dot smile higher or lower<br />
+- Change the size to make Dot’s smile wider, taller, or goofier
 
 </div>
 
+<div class="c-project-callout c-project-callout--debug">
+
 ### Debugging
 
-If you're not getting the right total, double check your `price`, `quantity`, and `total_price` values are set correctly at the top of your file.
+If the smile doesn’t appear:<br />
+- Did you use `fill('white')` to make the mouth visible?<br />
+- Are the arc’s x/y coordinates under the eyes?<br />
+- Make sure to use `radians()` with numbers like `radians(180)`
 
 </div>

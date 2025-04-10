@@ -1,16 +1,17 @@
-<h2 class="c-project-heading--task">Ask a question</h2>
+<h2 class="c-project-heading--task">Add Dot's eyes</h2>
 --- task ---
-Make your character ask how spicy the food is using `.upper()` to format the speaker name like a script.
+Draw two smaller circles to give Dot some eyes.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Is it too spicy?</h2>
+<h2 class="c-project-heading--explainer">Can Dot see?</h2>
 
-In scripts and plays, the speaker’s name is usually written in **capital letters**.  
-We can do this in Python using `.upper()` on a string.
+Let’s give Dot the Bug two cartoon eyes!
 
-For example, `name.upper()` will change `'Zorp'` to `'ZORP'`.
+You can use `fill('white')` to change the colour, and `circle(x, y, size)` to draw each one.
 
-Let’s use that to format your character’s line in the script!
+Remember: the eyes are just smaller circles. You can place them anywhere on Dot’s body.
+
+Try changing the position or size to make Dot look sleepy, surprised, or silly!
 
 <div class="c-project-code">
 --- code ---
@@ -18,24 +19,40 @@ Let’s use that to format your character’s line in the script!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10
-line_highlights: 13
+line_number_start: 9
+line_highlights: 12-14
 ---
-# Story starts
-print(f'{name} and their friends walk into a space café')
-print(f'ROBOT: Today\'s special is {item}!')
-print(f'{name.upper()}: How spicy is that?')
+    fill('black')
+    circle(200, 200, 100)
+
+    fill('white')
+    circle(180, 180, 20)
+    circle(220, 180, 20)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ZORP: How spicy is that?
+![A black circle with two white cartoon eyes on a green background](images/step_2.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can also use `.upper()` for other characters in your script if you'd like to expand your story.
+Try moving the eyes closer together or further apart.  
+You can even make one eye bigger than the other!  
+Change the numbers to create your own unique look.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If the eyes don’t appear:<br />
+- Make sure `fill('white')` comes **before** the eye circles<br />
+- Check that each `circle()` has 3 numbers: x, y, and size<br />
 
 </div>

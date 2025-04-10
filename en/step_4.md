@@ -1,16 +1,15 @@
-<h2 class="c-project-heading--task">Add the price and the order</h2>
+<h2 class="c-project-heading--task">Give Dot some antennae</h2>
 --- task ---
-Use your variables to print the cost and quantity of the order.
+Use the `line()` function to draw two antennae at the top of Dot's head.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Time to place an order</h2>
+<h2 class="c-project-heading--explainer">Add extra bug features</h2>
 
-Let’s add two more lines to your story.
+Lots of bugs have wiggly antennae to help them sense the world. Let’s give Dot two fun antennae!
 
-1. The robot should tell the price of the item using the `item` and `price` variables.
-2. Your alien should order a certain number of plates using the `quantity` variable, and use `.upper()` to format the speaker’s name like a script.
+You can use the `line()` function again to draw each one. Start the line near the top of Dot’s head and make it point upward or sideways.
 
-The variables in each f-string are placed inside curly braces `{}`. Python will swap those out with the actual values.
+Here’s what to add next:
 
 <div class="c-project-code">
 --- code ---
@@ -18,24 +17,39 @@ The variables in each f-string are placed inside curly braces `{}`. Python will 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-17
+line_number_start: 18
+line_highlights: 21-22
 ---
-print(f'The symbol blinks and changes to {emoji * level}!')
-print(f'ROBOT: Each plate of {item} costs {price} credits.')
-print(f'{name.upper()}: I\'ll have {quantity}')
+    line(160, 250, 140, 280)
+    line(240, 250, 260, 280)
+
+    line(185, 150, 175, 120)
+    line(215, 150, 225, 120)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ROBOT: Each plate of lava noodles costs 4 credits.<br />
-ZORP: I'll have 3
+![Dot with eyes, legs, and two antennae sticking out](images/step_4.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can change the name at the top of your file, and `.upper()` will always show it like a script character!
+- Try making one antenna longer than the other for a goofy look<br />
+- Try slanting them in different directions for more character
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If the antennae don’t show up:<br />
+- Double check the start of the line is near Dot’s head<br />
+- Did you accidentally draw them under the body? (They need to come after it!)<br />
+- Make sure you're using `stroke()` and `stroke_weight()`
 
 </div>

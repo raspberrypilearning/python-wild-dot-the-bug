@@ -1,15 +1,20 @@
-<h2 class="c-project-heading--task">Print the final receipt</h2>
+<h2 class="c-project-heading--task">Decorate Dot!</h2>
 --- task ---
-Make the robot print a very spicy receipt!
+Use any shapes you like to give Dot a personal touch.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Spicy receipt</h2>
+<h2 class="c-project-heading--explainer">Make Dot your own</h2>
 
-Use all your variables together to show just how spicy the order really was.
+Dot is ready to meet the world — but every bug deserves their own unique look!
 
-This time, we’re using:  
-- `emoji * level * total_price`  
-This means the emoji will be repeated `level` times per dish, multiplied by how many dishes were ordered.
+Let’s decorate Dot with some extras. You could add:
+
+- A bow, crown, or hat with `triangle()` or `rect()`
+- Cheeks or spots with smaller `circle()`s
+- Eyelashes or eyebrows using `line()`
+- A bug friend next to Dot!
+
+Here’s an example that adds a red bow on Dot’s head:
 
 <div class="c-project-code">
 --- code ---
@@ -17,22 +22,41 @@ This means the emoji will be repeated `level` times per dish, multiplied by how 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 21
+line_number_start: 24
+line_highlights: 27-29
 ---
-print('The robot prints an odd receipt:')
-print(emoji * level * total_price)
+    fill('white')
+    arc(200, 215, 40, 20, radians(0), radians(180))
+
+    fill('red')
+    triangle(195, 140, 185, 130, 195, 130)
+    triangle(205, 140, 215, 130, 205, 130)
+
+run()
 --- /code ---
 </div>
 
 <div class="c-project-output">
-The robot prints an odd receipt:<br />
-🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️🌶️
+![Dot with all features and a red bow on top](images/step_6.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try using a different emoji for the receipt or make your own twist by using `emoji * (level + quantity)` or similar.
+- Want to change Dot’s personality? Try adding eyebrows!
+- Give Dot a best friend using another set of shapes nearby.
+- Use colours like `'pink'`, `'orange'`, `'skyblue'`, or RGB values like `fill(255, 255, 0)`.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If your decorations don’t show up:<br />
+- Make sure they come **after** Dot’s body in the `draw()`<br />
+- Check spelling for `fill()` and shape names<br />
+- Are the x and y values on the screen?
 
 </div>

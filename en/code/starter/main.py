@@ -6,7 +6,5 @@ def setup():
 
 def draw():
     # Draw Dot here!
-    fill('black')
-    circle(200, 200, 100)
 
 run()

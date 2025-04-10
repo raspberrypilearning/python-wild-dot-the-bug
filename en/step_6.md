@@ -37,7 +37,7 @@ run()
 </div>
 
 <div class="c-project-output">
-Dot now has a cheerful red bow on their head.
+![Dot with all features and a red bow on top](images/step_6.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

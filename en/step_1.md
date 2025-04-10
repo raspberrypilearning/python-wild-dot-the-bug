@@ -38,7 +38,7 @@ run()
 </div>
 
 <div class="c-project-output">
-A single black circle appears on a light green background.
+![A single black circle on a green background](images/step_1.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

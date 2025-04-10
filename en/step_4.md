@@ -17,15 +17,9 @@ Here’s what to add next:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
+line_number_start: 18
 line_highlights: 21-22
 ---
-    fill('white')
-    circle(180, 180, 20)
-    circle(220, 180, 20)
-
-    stroke('black')
-    stroke_weight(3)
     line(160, 250, 140, 280)
     line(240, 250, 260, 280)
 
@@ -37,7 +31,7 @@ run()
 </div>
 
 <div class="c-project-output">
-Dot now has two antennae sticking up from its head.
+![Dot with eyes, legs, and two antennae sticking out](images/step_4.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

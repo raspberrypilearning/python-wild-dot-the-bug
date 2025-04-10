@@ -19,9 +19,12 @@ Try changing the position or size to make Dot look sleepy, surprised, or silly!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
+line_number_start: 9
 line_highlights: 12-14
 ---
+    fill('black')
+    circle(200, 200, 100)
+
     fill('white')
     circle(180, 180, 20)
     circle(220, 180, 20)
@@ -31,7 +34,7 @@ run()
 </div>
 
 <div class="c-project-output">
-A black circle with two white cartoon eyes appears on the green background.
+![A black circle with two white cartoon eyes on a green background](images/step_2.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
@@ -51,6 +54,5 @@ Change the numbers to create your own unique look.
 If the eyes don’t appear:<br />
 - Make sure `fill('white')` comes **before** the eye circles<br />
 - Check that each `circle()` has 3 numbers: x, y, and size<br />
-- Try zooming out if you made the eyes too big!
 
 </div>

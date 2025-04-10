@@ -23,17 +23,9 @@ Here’s what to add below the eyes:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
-line_highlights: 23
+line_number_start: 21
+line_highlights: 23, 24
 ---
-    fill('white')
-    circle(180, 180, 20)
-    circle(220, 180, 20)
-
-    stroke('black')
-    stroke_weight(3)
-    line(160, 250, 140, 280)
-    line(240, 250, 260, 280)
     line(185, 150, 175, 120)
     line(215, 150, 225, 120)
 
@@ -45,7 +37,7 @@ run()
 </div>
 
 <div class="c-project-output">
-Dot now has a bright white smile!
+![Dot with a smiling white arc as a mouth](images/step_5.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

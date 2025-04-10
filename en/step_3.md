@@ -37,7 +37,7 @@ run()
 </div>
 
 <div class="c-project-output">
-Dot now has two legs pointing downward!
+![Dot with two eyes and two angled black legs](images/step_3.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

@@ -1,16 +1,11 @@
-<h2 class="c-project-heading--task">Ask a question</h2>
+<h2 class="c-project-heading--task">Add some speech</h2>
 --- task ---
-Make your character ask how spicy the food is using `.upper()` to format the speaker name like a script.
+Make someone say something by using quotes inside your print statement.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Is it too spicy?</h2>
+<h2 class="c-project-heading--explainer">What did they say?</h2>
 
-In scripts and plays, the speaker’s name is usually written in **capital letters**.  
-We can do this in Python using `.upper()` on a string.
-
-For example, `name.upper()` will change `'Zorp'` to `'ZORP'`.
-
-Let’s use that to format your character’s line in the script!
+Use double quotes inside single quotes, to show someone speaking.
 
 <div class="c-project-code">
 --- code ---
@@ -18,24 +13,36 @@ Let’s use that to format your character’s line in the script!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10
-line_highlights: 13
+line_number_start: 1
+line_highlights: 3
 ---
-# Story starts
-print(f'{name} and their friends walk into a space café')
-print(f'ROBOT: Today\'s special is {item}!')
-print(f'{name.upper()}: How spicy is that?')
+print('It was a sunny day at the park. 🌳')
+print('Three kids were sitting on a big picnic blanket, eating jam sandwiches. 🧺🥪')
+print('A squirrel appeared and shouted, "Give that back!" 🐿️')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ZORP: How spicy is that?
+A squirrel appeared and shouted, "Give that back!" 🐿️
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can also use `.upper()` for other characters in your script if you'd like to expand your story.
+Try different visitors:<br />
+'A pigeon flapped in...' 🐦<br />
+'A goat trotted up...' 🐐<br />
+'A robot zoomed by...' 🤖
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Check that:<br />
+- You use both kinds of quotes correctly: `' "words" '`<br />
+- You didn’t forget to close all quotes or brackets
 
 </div>

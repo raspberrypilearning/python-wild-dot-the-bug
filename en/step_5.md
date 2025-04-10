@@ -1,13 +1,11 @@
-<h2 class="c-project-heading--task">A mistake in the maths</h2>
+<h2 class="c-project-heading--task">End your story</h2>
 --- task ---
-Make the robot say the wrong total, and correct it using variables.
+Add a final funny line to complete your picnic story.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Oh no! The robot gets it wrong</h2>
+<h2 class="c-project-heading--explainer">Picnic panic!</h2>
 
-Let’s show a mistake and then correct it using your variables.
-
-Instead of multiplying `price * quantity`, the robot adds them together by mistake. We’ll help your character spot and fix it!
+Finish your story with something silly or surprising.
 
 <div class="c-project-code">
 --- code ---
@@ -15,34 +13,29 @@ Instead of multiplying `price * quantity`, the robot adds them together by mista
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 18-20
+line_number_start: 1
+line_highlights: 6
 ---
-print(f'{name.upper()}: I\'ll have {quantity}')
-print(f'ROBOT: That\'ll be {price + quantity} credits.')
-print(f'{name.upper()}: That doesn\'t look right...')
-print(f'ROBOT: You\'re correct {price} × {quantity} = {total_price}')
+print('It was a sunny day at the park. 🌳')
+print('Three kids were sitting on a big picnic blanket, eating jam sandwiches. 🧺🥪')
+print('A squirrel appeared and shouted, "Give that back!" 🐿️')
+print("One kid's sandwich had already disappeared.")
+print('Another kid yelled, "That\'s mine!"')
+print('Then a seagull swooped down and stole the rest! 🐦💨')
 --- /code ---
 </div>
 
 <div class="c-project-output">
-ROBOT: That'll be 7 credits.<br />
-ZORP: That doesn't look right...<br />
-ROBOT: You're correct 4 × 3 = 12
+Then a seagull swooped down and stole the rest! 🐦💨
 </div>
-
-<div class="c-project-callout c-project-callout--debug">
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try changing the values of `level`, `price`, and `quantity`.
-
-</div>
-
-### Debugging
-
-If you're not getting the right total, double check your `price`, `quantity`, and `total_price` values are set correctly at the top of your file.
+Try these endings:<br />
+- 'A robot hoovered up the picnic.' 🤖<br />
+- 'Someone screamed and ran in circles.' 🏃‍♀️💨<br />
+- 'A goat was chewing on the blanket.' 🐐🧺
 
 </div>

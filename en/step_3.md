@@ -1,13 +1,13 @@
-<h2 class="c-project-heading--task">Spice symbols</h2>
+<h2 class="c-project-heading--task">Use an apostrophe</h2>
 --- task ---
-Show the robot’s spice symbol and multiply it using a variable.
+Print a sentence that includes an apostrophe by using double quotes to surround it.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Heat meter</h2>
+<h2 class="c-project-heading--explainer">Apostrophes in action</h2>
 
-The robot uses emoji to describe how spicy it is.
+Apostrophes can be useful in writing.
 
-We can use `emoji * level` to repeat the emoji. This works because `emoji` is a string, and `level` is a number!
+To include an apostrophe in a string, you can surround the sentence with **double quotes** `"` instead of single quotes `'`.
 
 <div class="c-project-code">
 --- code ---
@@ -15,24 +15,34 @@ We can use `emoji * level` to repeat the emoji. This works because `emoji` is a 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 13
-line_highlights: 14-15
+line_number_start: 4
+line_highlights: 4
 ---
-print(f'{name.upper()}: How spicy is that?')
-print(f'The robot displays {emoji} on it\'s screen.')
-print(f'The symbol blinks and changes to {emoji * level}!')
+print("One kid's sandwich had already disappeared.")
 --- /code ---
 </div>
 
 <div class="c-project-output">
-The robot displays 🌶️ on it's screen.
-The symbol blinks and changes to 🌶️🌶️🌶️🌶️🌶️!
+One kid's sandwich had already disappeared.
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try making `level` higher or lower to see what happens.
+Use **double quotes** around a sentence if it includes an apostrophe.<br />
+For example:<br />
+- "That's mine!"<br />
+- "Jess's sandwich was gone."
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If you get an error, check that:<br />
+- You used double quotes around the whole string<br />
+- You didn’t accidentally end the sentence too early with an apostrophe
 
 </div>

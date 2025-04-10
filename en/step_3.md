@@ -1,22 +1,38 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Spice symbols</h2>
+--- task ---
+Show the robot’s spice symbol and multiply it using a variable.
+--- /task ---
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+<h2 class="c-project-heading--explainer">Heat meter</h2>
 
------- OR ---------
+The robot uses emoji to describe how spicy it is.
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+We can use `emoji * level` to repeat the emoji. This works because `emoji` is a string, and `level` is a number!
 
---- print-only --- 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 13
+line_highlights: 14-15
+---
+print(f'{name.upper()}: How spicy is that?')
+print(f'The robot displays {emoji} on it\'s screen.')
+print(f'The symbol blinks and changes to {emoji * level}!')
+--- /code ---
+</div>
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+<div class="c-project-output">
+The robot displays 🌶️ on it's screen.
+The symbol blinks and changes to 🌶️🌶️🌶️🌶️🌶️!
+</div>
 
---- /print-only ---
+<div class="c-project-callout c-project-callout--tip">
 
---- no-print ---
+### Tip
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+Try making `level` higher or lower to see what happens.
 
---- /no-print ---
-
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+</div>

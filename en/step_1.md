@@ -1,42 +1,51 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Set the stage</h2>
+--- task ---
+Print the opening scene of your space café story using the `name` variable.
+--- /task ---
 
-A brief description - one or two sentences. 
+<h2 class="c-project-heading--explainer">Welcome to the play!</h2>
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+You’ve got some starter code that defines the characters and numbers. You can change these at any time.
 
---- no-print ---
+ 📕 Let’s start the story.  📕
 
-Editor embed 
+You can use f-strings in Python to add variables into your text. You need to place an `f` before the string starts and the variable name needs to be surrounded by `{}`
 
---- /no-print ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 11-12
+---
+# Variables
+name = 'Zorp'
+item = 'lava noodles'
+emoji = '🌶️'
+level = 5
+price = 4
+quantity = 3
+total_price = price * quantity
 
---- no-print ---
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+# Story starts
+print(f'{name} and their friends walk into a space café')
+print(f'ROBOT: Today\'s special is {item}!')
+--- /code ---
 </div>
 
---- /no-print ---
+<div class="c-project-output">
+Zorp and their friends walk into a space café<br />
+ROBOT: Today's special is lava noodles!
+</div>
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try changing the alien's name or the food to something fun!<br />
+👽 'Glorb' / 'galactic dumplings'<br />
+🛸 'Fizzbit' / 'black hole stew'
+
+</div>

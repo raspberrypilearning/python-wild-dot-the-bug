@@ -1,11 +1,19 @@
-title: default-project-template
+title: "Dot the Bug"
 hero_image: images/banner.png
-description: default-project-template description
+description: Draw and decorate a cartoon insect using shapes and colours in Python with p5.
+meta_title: Learn to code with Python Wild | Dot the Bug
+meta_description: Learn Python with the Raspberry Pi Foundation. Create a fun animated insect using shapes, colour, and personality.
 version: 1
 listed: false
 copyedit: false
-last_tested: "2025-01-01"
+last_tested: "2025-04-10"
 steps:
-  - title: What you will make
-  - title: Step title
-  - title: What can you do now?
+  - title: step_1
+  - title: step_2
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - engaged
+      - external

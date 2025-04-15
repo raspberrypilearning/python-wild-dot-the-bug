@@ -46,9 +46,9 @@ run()
 ### Tip
 
 You can experiment with the `circle()` values:
-- The **first number** is the x-position (left to right)
-- The **second number** is the y-position (top to bottom)
-- The **third number** is the size (diameter)
+- The **first number** is the x-position of the circle’s **centre**
+- The **second number** is the y-position of the circle’s **centre**
+- The **third number** is the size
 
 Try changing the numbers and using different colours in `fill()` like `'purple'` or `'orange'`!
 

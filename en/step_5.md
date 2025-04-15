@@ -13,7 +13,10 @@ Make sure you use `fill('white')` so it stands out from Dot’s face.
 In p5, the `arc()` function looks like this:  
 `arc(x, y, width, height, start_angle, stop_angle)`
 
-Use `radians()` to convert degrees to angles that p5 understands.
+The **start and stop angles** control how much of the circle is drawn.  
+The smile below starts at the left (0°) and ends at the right (180°) — that’s a half-circle!
+
+Because p5 works in **radians**, not degrees, you'll need to use `radians()` to convert the values.
 
 Here’s what to add below the eyes:
 
@@ -24,7 +27,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 21
-line_highlights: 23, 24
+line_highlights: 24-25
 ---
     line(185, 150, 175, 120)
     line(215, 150, 225, 120)

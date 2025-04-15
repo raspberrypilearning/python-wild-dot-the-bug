@@ -56,7 +56,7 @@ run()
 
 If your decorations don’t show up:<br />
 - Make sure they come **after** Dot’s body in the `draw()`<br />
-- Check spelling for `fill()` and shape names<br />
-- Are the x and y values on the screen?
+- `run()` should be the very last line of your code<br />
+- Check that the x and y values are between 0 and 400 for all shapes
 
 </div>

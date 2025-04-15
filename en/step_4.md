@@ -49,7 +49,6 @@ run()
 
 If the antennae don’t show up:<br />
 - Double check the start of the line is near Dot’s head<br />
-- Did you accidentally draw them under the body? (They need to come after it!)<br />
 - Make sure you're using `stroke()` and `stroke_weight()`
 
 </div>

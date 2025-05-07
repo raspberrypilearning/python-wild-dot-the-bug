@@ -22,7 +22,7 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 12-14
 ---
-    fill('black')
+&nbsp;&nbsp;&nbsp;&nbsp;fill('black')
     circle(200, 200, 100)
 
     fill('white')

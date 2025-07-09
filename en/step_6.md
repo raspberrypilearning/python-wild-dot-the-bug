@@ -60,3 +60,26 @@ If your decorations don’t show up:<br />
 - Check that the x and y values are between 0 and 400 for all shapes
 
 </div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Feedback
+
+This is a beta projects, which means it is brand new and not widely available. If you've tested this project on your own or with your club, let us know what you think.
+
+<a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-dot-the-bug" style="
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+" onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
+  Give feedback
+</a>
+</div>

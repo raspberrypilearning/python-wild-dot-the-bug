@@ -4,7 +4,7 @@ description: Draw and decorate a cartoon insect using shapes and colours in Pyth
 meta_title: Learn to code with Python Wild | Dot the Bug
 meta_description: Learn Python with the Raspberry Pi Foundation. Create a fun animated insect using shapes, colour, and personality.
 version: 1
-listed: false
+listed: true
 copyedit: false
 last_tested: "2025-04-10"
 steps:

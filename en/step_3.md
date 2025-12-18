@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add Dot's legs</h2>
+
 --- task ---
+
 Use the `line()` function to draw legs coming out from Dot's body.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Give Dot some legs!</h2>
@@ -23,6 +26,7 @@ line_numbers: true
 line_number_start: 12
 line_highlights: 16-19
 ---
+
     fill('white')
     circle(180, 180, 20)
     circle(220, 180, 20)
@@ -33,6 +37,7 @@ line_highlights: 16-19
     line(240, 250, 260, 280)
 
 run()
+
 --- /code ---
 </div>
 

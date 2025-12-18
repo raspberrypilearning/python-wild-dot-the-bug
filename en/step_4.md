@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Give Dot some antennae</h2>
+
 --- task ---
+
 Use the `line()` function to draw two antennae at the top of Dot's head.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Add extra bug features</h2>
@@ -20,6 +23,7 @@ line_numbers: true
 line_number_start: 18
 line_highlights: 21-22
 ---
+
     line(160, 250, 140, 280)
     line(240, 250, 260, 280)
 
@@ -27,7 +31,9 @@ line_highlights: 21-22
     line(215, 150, 225, 120)
 
 run()
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

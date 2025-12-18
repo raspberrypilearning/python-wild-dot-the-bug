@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Decorate Dot!</h2>
+
 --- task ---
+
 Use any shapes you like to give Dot a personal touch.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make Dot your own</h2>
@@ -25,6 +28,7 @@ line_numbers: true
 line_number_start: 24
 line_highlights: 27-29
 ---
+
     fill('white')
     arc(200, 215, 40, 20, radians(0), radians(180))
 
@@ -33,6 +37,7 @@ line_highlights: 27-29
     triangle(205, 140, 215, 130, 205, 130)
 
 run()
+
 --- /code ---
 </div>
 

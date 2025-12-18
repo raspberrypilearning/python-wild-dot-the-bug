@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add Dot's eyes</h2>
+
 --- task ---
+
 Draw two smaller circles to give Dot some eyes.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Can Dot see?</h2>
@@ -22,6 +25,7 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 12-14
 ---
+
     fill('black')
     circle(200, 200, 100)
 
@@ -30,7 +34,9 @@ line_highlights: 12-14
     circle(220, 180, 20)
 
 run()
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

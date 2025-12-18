@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Draw Dot's body</h2>
+
 --- task ---
+
 Draw a circle to make Dot the Bug's body.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Your first shape!</h2>
@@ -22,6 +25,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 9-10
 ---
+
 from p5 import *
 
 def setup():
@@ -34,6 +38,7 @@ def draw():
     circle(200, 200, 100)
 
 run()
+
 --- /code ---
 </div>
 

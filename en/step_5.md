@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add a mouth using an arc</h2>
+
 --- task ---
+
 Use the `arc()` function to draw a smiling mouth on Dot.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Time for a smile!</h2>
@@ -29,6 +32,7 @@ line_numbers: true
 line_number_start: 21
 line_highlights: 24-25
 ---
+
     line(185, 150, 175, 120)
     line(215, 150, 225, 120)
 
@@ -36,7 +40,9 @@ line_highlights: 24-25
     arc(200, 215, 40, 20, radians(0), radians(180))
 
 run()
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

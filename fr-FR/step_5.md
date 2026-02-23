@@ -33,13 +33,11 @@ line_number_start: 21
 line_highlights: 24-25
 ---
 
-    ```
     line(185, 150, 175, 120)
     line(215, 150, 225, 120)
     
     fill('white')
     arc(200, 215, 40, 20, radians(0), radians(180))
-    ```
 
 run()
 

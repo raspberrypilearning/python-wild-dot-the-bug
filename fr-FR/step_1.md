@@ -26,16 +26,16 @@ line_number_start: 1
 line_highlights: 9-10
 ---
 
-from p5 import \*
+from p5 import *
 
 def setup():
-size(400, 400)
-background('lightgreen')
+    size(400, 400)
+    background('lightgreen')
 
 def draw():
-\# Dessiner Dot ici !
-fill('black')
-circle(200, 200, 100)
+    # Dessiner Dot ici !
+    fill('black')
+    circle(200, 200, 100)
 
 run()
 
@@ -53,8 +53,8 @@ run()
 
 Tu peux expérimenter avec les valeurs de `circle()` :
 
-- Le **premier nombre** est la position X du **centre** du cercle\*\*
-- Le **deuxième nombre** est la position Y du **centre** du cercle\*\*
+- Le **premier nombre** est la position X du **centre** du cercle
+- Le **deuxième nombre** est la position Y du **centre** du cercle
 - Le **troisième nombre** est la taille
 
 Essaie de modifier les nombres et d'utiliser différentes couleurs dans `fill()` comme `'purple'` ou `'orange'` !

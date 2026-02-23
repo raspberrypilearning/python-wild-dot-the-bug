@@ -29,14 +29,12 @@ line_number_start: 24
 line_highlights: 27-29
 ---
 
-    ```
     fill('white')
     arc(200, 215, 40, 20, radians(0), radians(180))
     
     fill('red')
     triangle(195, 140, 185, 130, 195, 130)
     triangle(205, 140, 215, 130, 205, 130)
-    ```
 
 run()
 
@@ -77,29 +75,28 @@ Si tes décorations ne s'affichent pas :<br />
 Il s'agit d'un projet bêta, ce qui signifie qu'il est tout nouveau et pas encore largement disponible. Si tu as testé ce projet individuellement ou avec ton club, n'hésite pas à nous faire part de ton avis.
 
 <a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-dot-the-bug" style="
-display: inline-block;
-padding: 10px 20px;
-border: 2px solid black;
-border-radius: 999px;
-font-weight: bold;
-font-size: 16px;
-background-color: white;
-color: black;
-text-align: center;
-text-decoration: none;
-transition: background-color 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
 " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
-Donner ton avis </a>
+Donner ton avis</a>
 
 </div>
 
 ***
+
 Ce projet a été traduit par des bénévoles:
 
-[name]
+Michel Arnols
 
-[name]
-
-[name]
+Jonathan Vannieuwkerke
 
 Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

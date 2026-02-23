@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Versier Dot!</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik alle vormen die je leuk vindt om Dot een persoonlijk tintje te geven.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Maak jouw eigen Dot</h2>
 
@@ -40,7 +40,7 @@ line_highlights: 27-29
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -92,3 +92,14 @@ transition: background-color 0.2s;
 Geef feedback </a>
 
 </div>
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+[name]
+
+[name]
+
+[name]
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

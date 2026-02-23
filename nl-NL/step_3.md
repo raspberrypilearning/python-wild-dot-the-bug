@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg Dots poten toe</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik de functie `line()` om poten te tekenen die uit Dots lichaam steken.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Geef Dot poten!</h2>
 
@@ -40,7 +40,7 @@ line_highlights: 16-19
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

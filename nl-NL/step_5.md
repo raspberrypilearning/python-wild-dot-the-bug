@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een bek toe met behulp van een boog</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik de `arc()`-functie om een lachende bek op Dot te tekenen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Tijd voor een glimlach!</h2>
 
@@ -43,7 +43,7 @@ line_highlights: 24-25
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

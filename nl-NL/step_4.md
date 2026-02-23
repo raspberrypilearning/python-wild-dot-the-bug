@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Geef Dot wat antennes</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik de functie `line()` om twee antennes bovenop Dots kop te tekenen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Voeg extra keverfuncties toe</h2>
 
@@ -34,7 +34,7 @@ line_highlights: 21-22
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

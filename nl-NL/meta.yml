@@ -1,0 +1,21 @@
+title: "Python wild - Dot de kever"
+hero_image: images/banner.png
+description: Teken en versier een cartooninsect met behulp van vormen en kleuren in Python met p5.
+meta_title: Leer programmeren met Python Wild | Dot de kever
+meta_description: Leer Python met de Raspberry Pi Foundation. Maak een leuk geanimeerd insect met behulp van vormen, kleuren en persoonlijkheid.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external

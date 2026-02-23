@@ -1,0 +1,21 @@
+title: "Python Wild - Dot l'insecte"
+hero_image: images/banner.png
+description: Dessine et décore un insecte de dessin animé en utilisant des formes et des couleurs dans Python avec p5.
+meta_title: Apprendre à coder avec Python Wild | Dot l'insecte
+meta_description: Apprends Python avec la Raspberry Pi Foundation. Crée un insecte animé amusant en utilisant des formes, des couleurs et de la personnalité.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external

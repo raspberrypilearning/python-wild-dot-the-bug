@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Donner des antennes à Dot</h2>
 
-\--- task ---
+--- task ---
 
 Utilise la fonction `line()` pour dessiner deux antennes sur le dessus de la tête de Dot.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Ajouter des fonctionnalités supplémentaires à l'insecte</h2>
 
@@ -34,7 +34,7 @@ line_highlights: 21-22
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

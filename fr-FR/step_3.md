@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter les jambes de Dot</h2>
 
-\--- task ---
+--- task ---
 
 Utilise la fonction `line()` pour dessiner des jambes sortant du corps de Dot.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Donner des jambes à Dot !</h2>
 
@@ -40,7 +40,7 @@ line_highlights: 16-19
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

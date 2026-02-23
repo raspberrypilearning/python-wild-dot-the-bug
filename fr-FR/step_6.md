@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Décore Dot !</h2>
 
-\--- task ---
+--- task ---
 
 Utilise les formes que tu aimes pour donner à Dot une touche personnelle.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Créer ton Dot</h2>
 
@@ -40,7 +40,7 @@ line_highlights: 27-29
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -92,3 +92,14 @@ transition: background-color 0.2s;
 Donner ton avis </a>
 
 </div>
+
+***
+Ce projet a été traduit par des bénévoles:
+
+[name]
+
+[name]
+
+[name]
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

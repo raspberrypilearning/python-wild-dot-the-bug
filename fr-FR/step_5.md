@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter une bouche en utilisant un arc</h2>
 
-\--- task ---
+--- task ---
 
 Utilise la fonction `arc()` pour dessiner une bouche souriante sur Dot.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Il est temps de sourire !</h2>
 
@@ -43,7 +43,7 @@ line_highlights: 24-25
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

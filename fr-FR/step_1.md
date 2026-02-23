@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner le corps de Dot</h2>
 
-\--- task ---
+--- task ---
 
 Dessine un cercle pour former le corps de Dot l'insecte.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Ta première forme !</h2>
 
@@ -39,7 +39,7 @@ circle(200, 200, 100)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

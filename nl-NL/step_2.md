@@ -26,14 +26,12 @@ line_number_start: 9
 line_highlights: 12-14
 ---
 
-    ```
     fill('black')
     circle(200, 200, 100)
     
     fill('white')
     circle(180, 180, 20)
     circle(220, 180, 20)
-    ```
 
 run()
 

@@ -24,13 +24,11 @@ line_number_start: 18
 line_highlights: 21-22
 ---
 
-    ```
     line(160, 250, 140, 280)
     line(240, 250, 260, 280)
     
     line(185, 150, 175, 120)
     line(215, 150, 225, 120)
-    ```
 
 run()
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken het lichaam van Dot</h2>
 
---- task ---
+\--- task ---
 
 Teken een cirkel om het lichaam van Dot de kever te maken.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Je eerste vorm!</h2>
 
@@ -26,20 +26,20 @@ line_number_start: 1
 line_highlights: 9-10
 ---
 
-from p5 import *
+from p5 import \*
 
 def setup():
-    size(400, 400)
-    background('lightgreen')
+size(400, 400)
+background('lightgreen')
 
 def draw():
-    # Teken Dot hier!
-    fill('black')
-    circle(200, 200, 100)
+\# Teken Dot hier!
+fill('black')
+circle(200, 200, 100)
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 

@@ -1,0 +1,21 @@
+title: "Python Wild - Жуки з крапок"
+hero_image: images/banner.png
+description: Малюй та прикрашай мультяшних жуків, використовуючи форми та кольори у Python за допомогою p5.
+meta_title: Навчіться програмувати за допомогою Python Wild | Жуки з крапок
+meta_description: Вивчайте Python з Raspberry Pi Foundation. Створіть веселих анімованих жуків, використовуючи форми, колір та індивідуальність.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external

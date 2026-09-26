@@ -1,0 +1,4 @@
+name: "Python Wild - Жуки з крапок"
+identifier: "python-wild-dot-the-bug"
+type: 'python'
+build: true

@@ -1,0 +1,4 @@
+name: "Python Wild - Dot the Bug complete"
+identifier: "python-wild-dot-the-bug-complete"
+type: 'python'
+build: true

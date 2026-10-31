@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter les yeux de Dot</h2>
 
---- task ---
+\--- task ---
 
 Dessine deux cercles plus petits pour donner des yeux à Dot.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Est-ce que Dot peut voir ?</h2>
 
@@ -26,16 +26,18 @@ line_number_start: 9
 line_highlights: 12-14
 ---
 
+    ```
     fill('black')
     circle(200, 200, 100)
     
     fill('white')
     circle(180, 180, 20)
     circle(220, 180, 20)
+    ```
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg Dots ogen toe</h2>
 
---- task ---
+\--- task ---
 
 Teken twee kleinere cirkels om Dot ogen te geven.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Kan Dot zien?</h2>
 
@@ -26,16 +26,18 @@ line_number_start: 9
 line_highlights: 12-14
 ---
 
+    ```
     fill('black')
     circle(200, 200, 100)
     
     fill('white')
     circle(180, 180, 20)
     circle(220, 180, 20)
+    ```
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 
